@@ -24,14 +24,14 @@ void loop() {
     checkButton(); 
   } else {
    
-   int r1 = random(220,255);
-   int g1 = random(180,220);
+   int r1 = random(254,255);
+   int g1 = random(120,140);
    int b1 = random(10,40);
-   int r2 = random(220,255);
-   int g2 = random(180,220);
+   int r2 = random(254,255);
+   int g2 = random(120,140);
    int b2 = random(10,40);
 
-   int t = random(100,1000);
+   int t = random(1000,3000);
   
    //Example sequence one: Rainbow fade over 15 seconds:
    flicker(r1,g1,b1,r2,g2,b2,t); //fade from red to green over 5 seconds 
